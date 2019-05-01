@@ -1,7 +1,7 @@
 #!/bin/bash
 
 read -p "Enter (absolute or relative) path of the directory containing the capture files: " DIR
-
+cd "$DIR"
 GOAT=$(find / -name "goatrider.py" 2>/dev/null)
 
 if [[ ! -z "$GOAT" ]]
