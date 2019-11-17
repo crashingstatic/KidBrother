@@ -1,4 +1,4 @@
-#KidBrother
+#KidBrother  
 Process your Bro logs using GoatRider to lookup suspicious addresses  
 This script looks automatically goes through weird.log and x509.log, pulls out domains/ip addresses, then uses Binary Defense's GoatRider to cross check the results against various blacklists, TOR nodes, and the Alexa 100M list.
   
