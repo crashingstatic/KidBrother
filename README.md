@@ -6,6 +6,7 @@ Dependencies:
   * Bro/Zeek: https://www.zeek.org/
   * GoatRider: https://github.com/BinaryDefense/goatrider
   * python2.7  
+  
 Just run the bash script and point it at the directory where your capture files are located.  
   
 `chmod +x KidBrother.sh`  
